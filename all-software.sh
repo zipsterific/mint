@@ -9,6 +9,6 @@ sudo -H /usr/bin/python -m pip install pylint
 sudo -H pip install --upgrade pip 
 sudo -H pip install setuptools
 
-sudo add apt-repository ppa:neovim-ppa/unstable
+sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
 sudo apt-get install neovim
