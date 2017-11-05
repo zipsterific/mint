@@ -1,2 +1,2 @@
 # mint
-Linux Mint Builds
+Linux Mint Build Playground
