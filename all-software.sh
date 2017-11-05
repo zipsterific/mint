@@ -19,6 +19,12 @@ sudo apt-get install -y thunar vlc vnstat
 # installation of zippers and unzippers
 sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 
+# install brave
+curl https://s3-us-west-2.amazonaws.com/brave-apt/keys.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://s3-us-west-2.amazonaws.com/brave-apt xenial main" | sudo tee -a /etc/apt/sources.list.d/brave-xenial.list
+sudo apt update
+sudo apt install -y brave
+
 # some of the unusual stuff
 sudo apsudo add-apt-repository -y ppa:neovim-ppa/stable
 sudo apt-get update
