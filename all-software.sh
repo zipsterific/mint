@@ -38,4 +38,4 @@ sudo /bin/sh /home/alan/erikdubois/1-install-core-software-v2.sh
 cd  /home/alan/erikdubois/
 sudo /bin/sh 2-install-extra-software-v1.sh
 sudo /bin/sh 3-install-themes-icons-cursors-conky-plank-v2.sh
-sudo /bin/sh 4-install-install-distro-specific-software.sh
+sudo /bin/sh 4-install-distro-specific-software.sh
