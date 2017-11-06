@@ -35,6 +35,7 @@ sudo apt-get install -y screenfetch
 sudo mkdir /home/alan/erikdubois
 sudo git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.2-Cinnamon.git /home/alan/erikdubois
 sudo /bin/sh /home/alan/erikdubois/1-install-core-software-v2.sh
-sudo /bin/sh /home/alan/erikdubois/2-install-extra-software-v1.sh
-sudo /bin/sh /home/alan/erikdubois/3-install-themes-icons-cursors-conky-plank-v2.sh
-sudo /bin/sh /home/alan/erikdubois/4-install-install-distro-specific-software.sh
+cd  /home/alan/erikdubois/
+sudo /bin/sh 2-install-extra-software-v1.sh
+sudo /bin/sh 3-install-themes-icons-cursors-conky-plank-v2.sh
+sudo /bin/sh 4-install-install-distro-specific-software.sh
