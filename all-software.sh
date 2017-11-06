@@ -29,3 +29,12 @@ sudo apt install -y brave
 sudo apsudo add-apt-repository -y ppa:neovim-ppa/stable
 sudo apt-get update
 sudo apt-get install -y neovim
+sudo apt-get install -y screenfetch
+
+# now for the eye candy...
+sudo mkdir /home/alan/erikdubois
+sudo git clone https://github.com/erikdubois/Ultimate-Linux-Mint-18.2-Cinnamon.git /home/alan/erikdubois
+sudo /bin/sh /home/alan/erikdubois/1-install-core-software-v2.sh
+sudo /bin/sh /home/alan/erikdubois/1-install-extra-software-v1.sh
+sudo /bin/sh /home/alan/erikdubois/1-install-themes-icons-cursors-conky-plank-v2.sh
+sudo /bin/sh /home/alan/erikdubois/1-install-install-distro-specific-software.sh
