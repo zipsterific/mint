@@ -1,16 +1,11 @@
 #!/bin/bash
 
-# update the system
+# run a full system update
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-sudo apt-get install -y python-pip     #python 2
-sudo apt-get install -y python3-pip    #python 3
-sudo -H /usr/bin/python -m pip install pylint
-sudo -H pip install --upgrade pip 
-sudo -H pip install setuptools
+# instream software installs
 
-# software from 'normal' repositories
 sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
@@ -41,3 +36,7 @@ sudo /bin/sh 3-install-themes-icons-cursors-conky-plank-v2.sh
 sudo /bin/sh 4-install-distro-specific-software.sh
 sudo /bin/sh install-zsh-v1.sh
 sudo chsh alan -s /bin/zsh
+
+echo "################################################################"
+echo "###################    core software installed  ################"
+echo "################################################################"
