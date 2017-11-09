@@ -12,7 +12,6 @@ set -e
 ##################################################################################################################
 
 # Virtual Studio Code
-
-wget https://code.visualstudio.com/docs/?dv=linux64_deb  -O /tmp/visualstudio.deb
+wget https://az764295.vo.msecnd.net/stable/dcee2202709a4f223185514b9275aa4229841aa7/code_1.18.0-1510145176_amd64.deb -O /tmp/visualstudio.deb
 dpkg -i /tmp/visualstudio.deb
 rm /tmp/visualstudio.deb
