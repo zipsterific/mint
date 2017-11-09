@@ -44,3 +44,9 @@ sh install-virtualbox.sh
 # Etcher
 
 sh install-etcher.sh
+
+# Visual Studio Code
+
+sh install-virtualbox.sh
+
+##################################################################################################################
