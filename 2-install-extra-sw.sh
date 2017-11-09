@@ -43,7 +43,7 @@ sh install-virtualbox.sh
 
 # Etcher
 
-# sh install-etcher.sh
+sh install-etcher.sh
 
 ##################################################################################################################
 
