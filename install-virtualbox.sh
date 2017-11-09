@@ -6,25 +6,12 @@ set -e
 ##################################################################################################################
 ##################################################################################################################
 #
-# INSTALL PYTHON EXTRAS
+# INSTALL VIRTUALBOX
 #
 ##################################################################################################################
 ##################################################################################################################
 
-# Python pip
-
-apt-get install -y python-pip     #python 2
-apt-get install -y python3-pip    #python 3
-
-###############################################################################################
-
-# Python setuptools
-
-pip install setuptools
-
-###############################################################################################
-
-# Python pylint 
-
-/usr/bin/python -m pip install pylint
-pip install --upgrade pip 
+# VirtualBox
+wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
+dpkg -i /tmp/virtual-box.deb
+rm /tmp/virtual-box.deb
