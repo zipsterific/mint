@@ -6,13 +6,13 @@ set -e
 ##################################################################################################################
 ##################################################################################################################
 #
-# INSTALL VIRTUALBOX
+# INSTALL ETCHER
 #
 ##################################################################################################################
 ##################################################################################################################
 
-# VirtualBox
-apt-get install libcurl3
-wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
-dpkg -i /tmp/virtual-box.deb
-rm /tmp/virtual-box.deb
+# Etcher
+
+echo "deb https://dl.bintray.com/resin-io/debian stable etcher" | sudo tee /etc/apt/sources.list.d/etcher.list
+apt-get update
+apt-get install etcher-electron

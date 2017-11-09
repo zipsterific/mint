@@ -38,3 +38,9 @@ sh install-zsh.sh
 # VirtualBox
 
 sh install-virtualbox.sh
+
+##################################################################################################################
+
+# Etcher
+
+sh install-etcher.sh
