@@ -17,4 +17,4 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/jkt-gentoo
 wget http://download.opensuse.org/repositories/home:jkt-gentoo:trojita/xUbuntu_16.04/Release.key -O /tmp/Release.key
 sudo apt-key add - < /tmp/Release.key
 sudo apt update
-sudo apt install trojita
+sudo apt install -y trojita
