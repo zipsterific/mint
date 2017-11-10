@@ -14,5 +14,6 @@ set -e
 # Slack
 
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb -O /tmp/slack.deb
+sudo add-apt-repository ppa:nilarimogard/webupd8
 dpkg -i /tmp/slack.deb
 rm /tmp/slack.deb
