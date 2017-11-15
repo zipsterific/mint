@@ -6,14 +6,13 @@ set -e
 ##################################################################################################################
 ##################################################################################################################
 #
-# INSTALL Virtualbox
+# INSTALL VAGRANT
 #
 ##################################################################################################################
 ##################################################################################################################
 
-# Virtualbox
+# Vagrant
 
-apt-get install libcurl3
-wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
-dpkg -i /tmp/virtual-box.deb
-rm /tmp/virtual-box.deb
+wget https://releases.hashicorp.com/vagrant/2.0.1/vagrant_2.0.1_x86_64.deb -O /tmp/vagrant.deb
+dpkg -i /tmp/vagrant.deb
+rm /tmp/vagrant.deb
