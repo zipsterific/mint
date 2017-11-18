@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 # install iDrive scripts
 
