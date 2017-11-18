@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# install iDrive scripts
+
 idrive=/home/alan/idrive
 
 mkdir $idrive
