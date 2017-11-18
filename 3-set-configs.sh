@@ -12,5 +12,5 @@ if [ ! -d $idrive ]; then
     exit 1
 fi
 wget https://www.idrivedownloads.com/downloads/linux/download-for-linux/IDrive_for_Linux.zip -O $idrive/idrive.zip
-unzip $idrive/idrive.zip
+unzip $idrive/idrive.zip -d $idrive
 chmod a+x $idrive/IDrive_for_Linux/scripts/*.pl
