@@ -9,7 +9,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
 sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
-sudo apt-get install -y thunar vlc vnstat screenfetch
+sudo apt-get install -y thunar vlc vnstat screenfetch python-setuptools
 
 # installation of zippers and unzippers
 sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
