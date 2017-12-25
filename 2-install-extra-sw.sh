@@ -37,7 +37,12 @@ sh install-zsh.sh
 
 # VirtualBox
 
-sh install-virtualbox.sh
+dmidecode | grep VirtualBox
+if [ $? -eq 0 ]; then
+    echo "Skipping Virtualbox Install. This is already a VM!"
+else
+    sh install-virtualbox.sh
+fi
 
 ##################################################################################################################
 
@@ -73,6 +78,13 @@ sh install-trojita.sh
 
 # Vagrant
 
-sh install-vagrant.sh
+dmidecode | grep VirtualBox
+if [ $? -eq 0 ]; then
+    echo "Skipping Vagrant Install. This is already a VM!"
+else
+    sh install-vagrant.sh
+fi
+
+
 
 ##################################################################################################################
