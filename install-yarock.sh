@@ -13,6 +13,6 @@ set -e
 
 # Yarock
 
-add-apt-repository ppa:nilarimogard/webupd8
-apt update
-apt install -y yarock
+add-apt-repository ppa:samrog131/ppa
+apt-get update
+apt-get install -y yarock
