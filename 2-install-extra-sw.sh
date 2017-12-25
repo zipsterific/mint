@@ -66,7 +66,8 @@ sh install-slack.sh
 
 # Yarock
 
-sh install-yarock.sh
+# sh install-yarock.sh
+# ppa no longer works
 
 ##################################################################################################################
 
