@@ -14,6 +14,6 @@ set -e
 # Virtualbox
 
 apt-get install libcurl3
-wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
+wget http://download.virtualbox.org/virtualbox/6.0.4/virtualbox-6.0_6.0.4-128413~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
 dpkg -i /tmp/virtual-box.deb
 rm /tmp/virtual-box.deb
