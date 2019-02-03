@@ -6,8 +6,8 @@ sudo apt-get upgrade -y
 
 # instream software installs
 
-sudo apt-get install -y curl catfish clementine curl dconf-cli dconf-editor evolution focuswriter geany geary gimp gpick autofs nfs-common
-sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
+sudo apt-get install -y curl dconf-cli dconf-editor gimp gpick autofs nfs-common
+sudo apt-get install -y gparted grsync hardinfo inkscape meld
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 sudo apt-get install -y thunar vlc vnstat screenfetch python-setuptools
 
