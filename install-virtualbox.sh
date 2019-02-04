@@ -19,7 +19,7 @@ dpkg -i /tmp/virtual-box.deb
 rm /tmp/virtual-box.deb
 
 # Extension Pack
-wget http://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack -O /tmp \
+wget http://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack -O /tmp/\
 Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack
-vboxmanage extpack install --accept-license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb \
+vboxmanage extpack install --accept-license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb /tmp/\
 Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack
